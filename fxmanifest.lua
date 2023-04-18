@@ -5,6 +5,7 @@ lua54 'yes'
 
 author 'Emotion'
 description 'Guarma Script'
+version '1.0.0'
 
 
 server_scripts {
