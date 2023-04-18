@@ -72,7 +72,7 @@ Citizen.CreateThread(function()
                         Citizen.InvokeNative(0x74E2261D2A66849A, true) -- Set Guarma Horizon Status
                         Wait(20000)  
                     if spawnroll then
-                        SetEntityCoords(Ped, v.spawn.x, v.spawn.y, v.spawn.z)
+                        SetEntityCoords(Ped, v.spawn.x, v.spawn.y, v.spawn.z, v.spawn.h)
                     end
                         FreezeEntityPosition(Ped,false) -- Unfreeze person
                     if Config.Transitions == true then DoScreenFadeOut(1000) end
@@ -121,7 +121,7 @@ Citizen.CreateThread(function()
                         SetEntityCoords(Ped, 2534.975, -1835.944, 41.93) -- Boat Transition Area 
                         Wait(20000)
                     if spawnroll then
-                        SetEntityCoords(Ped, v.spawn.x, v.spawn.y, v.spawn.z)
+                        SetEntityCoords(Ped, v.spawn.x, v.spawn.y, v.spawn.z, v.spawn.h)
                     end
                     if Config.Transitions == true then DoScreenFadeIn(4000) end
                     if Config.Transitions == true then ShutdownLoadingScreen() end

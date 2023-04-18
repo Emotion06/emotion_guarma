@@ -5,14 +5,14 @@
 Locales["de"] = {
 
     -- Prompts
-    traveltoguarmaprice = "Preis: "..Config.PriceToGuarma.."$",
-    traveltomainlandprice = "Preis: "..Config.PriceForReturn.."$",
+    traveltoguarmaprice = "Preis: ~t6~"..Config.PriceToGuarma.."$",
+    traveltomainlandprice = "Preis: ~t6~"..Config.PriceForReturn.."$",
     traveltoguarma = "Nach Guarma",
     traveltomainland = "Zurück ans Festland",
 
     -- Notifcations
     travelto = "Du fährst nach Guarma für "..Config.PriceToGuarma.."$",
-    travelfrom = "Du fährst zurück ans Festland für "..Config.PriceToGuarma.."$",
+    travelfrom = "Du fährst zurück ans Festland für "..Config.PriceForReturn.."$",
     --nomoney = "Du hast nicht genug Geld",
 
     -- Transitions
